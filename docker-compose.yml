@@ -20,6 +20,7 @@ services:
 
   api:
     networks:
+      - default
       - parking_global_net
     build: .
     container_name: api_core
